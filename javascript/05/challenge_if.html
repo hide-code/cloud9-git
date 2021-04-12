@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            var min=0;
+            var max=9;
+            var rand=Math.floor(Math.random()*(max+1-min))+min;
+            document.write('<p>rand:' +rand+ '</p>');
+            if(rand%2===0){
+                document.write('<p>偶数だ');
+            }else{
+                 document.write('<p>奇数だ');
+            }
+        </script>
+    </body>
+</html>

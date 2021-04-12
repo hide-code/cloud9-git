@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+    var data1 = [59, 39, 100, 2, 15, 40, 84, 97];
+　　var data2 = [63, 18, 64, 97, 50, 98];
+/* 以下に課題処理を追加 */
+    
+    var sum1=0;
+    var sum2=0;
+    
+    for(var i=0;i<data1.length;i++){
+        sum1=sum1+data1[i];
+    }
+    for(var i=0;i<data2.length;i++){
+        sum2=sum2+data2[i];
+    }
+    
+    var average=(sum1+sum2)/(data1.length+data2.length);
+    
+    document.write('data1とdata2を合わせた平均値' +average+ '<br>');
+    document.write('平均値以上の数値は以下<br>');
+    
+    
+    for(var i=0;i<data1.length;i++){
+        if(average<=data1[i]){
+            document.write('data1:' +data1[i]+ '<br>');
+        }
+    }
+    
+    for(var i=0;i<data2.length;i++){
+        if(average<=data2[i]){
+            document.write('data2:' +data2[i]+ '<br>');
+        }
+    }
+    
+    
+    
+    </script>
+</body>
+
+</html>

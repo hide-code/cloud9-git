@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+
+}
+p {
+  border: 1px solid gray;
+  padding: 5px;
+  flex:1;
+}
+.stamp{
+    flex: 3;
+}
+.oya{
+    display: flex;
+}
+.ko1{
+    flex:1;
+}
+.ko2{
+    flex:2;
+}
+.ko3{
+    flex:3;
+}

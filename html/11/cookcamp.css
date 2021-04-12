@@ -1,0 +1,194 @@
+.clearfix::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+body{
+    background-color:#f5f5dd;
+    margin:0;
+    min-width:960px;
+}
+header{
+    background-color:white;
+    border-bottom:solid 1px #cccccc;
+    padding-top:10px;
+  
+}
+.container{
+    width:960px ;
+    margin:0 auto;
+    color:#664433;
+
+}
+.container>img{
+    width:100%;
+}
+.logo{
+    float:left;
+    margin-bottom:20px;
+}
+header form{
+   float:right;
+   margin-bottom:20px;
+}
+
+.header-navi{
+    clear: both;
+    display:flex;
+ 
+    
+}
+.header-navi a{
+    flex:1;
+    display:block;
+    text-decoration: none;
+    text-align:center;
+    border-right:solid 1px ;
+    padding:5px;
+    color:#664433;
+}
+.header-navi a:last-child{
+    border-right:0;
+}
+
+
+main{
+    justify-content: space-between;
+    display:flex;
+}
+.subtitle{
+    background-color:#99bb22;
+    color: white;
+    border-radius:25px;
+    margin:0 0 10px;
+    padding: 5px 0 5px 40px;
+    background-image:url(./images/icon/dish.png);
+    background-repeat:no-repeat;
+    background-position:16px 4px;
+    background-size: 1.1em;
+    
+}
+
+nav{
+    width: 200px;
+}
+nav section{
+    padding:10px;
+    background-color:white;
+    margin:10px  0px;
+}
+nav li{
+    background-image:url(./images/icon/arrow.png);
+    background-repeat:no-repeat;
+    background-position:7px 4px;
+    background-size: 1.1em;
+}
+nav li+li{
+    border-top:dashed 1px ;
+}
+nav a{
+    display: block;
+    text-decoration:none;
+    padding:5px 28px;
+}
+
+
+article{
+    width: 550px;
+}
+article section{
+    background-color:white;
+    margin:10px  0px;
+    padding:10px;
+}
+
+.new-recipes{
+    display:flex;
+    justify-content: space-around;
+}
+.new-recipes figure{
+
+    flex:1;
+}
+.new-recipes img{
+    display:block;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.new-recipes figcaption{
+    font-size:50%;
+    text-align:center;
+}
+
+.left-side{
+    float:left;
+}
+.right-side{
+    float:right;
+    width:50%;
+    line-height:140%;
+}
+.right-side p:first-child{
+    text-indent:1em;
+}
+.continue{
+    display:block;
+    width:100px;
+    text-align:right;
+    float:right;
+    color:#fc8833;
+    background-image:url(./images/icon/arrow.png);
+    background-repeat:no-repeat;
+    background-position:0px 1px;
+    background-size: 0.9em;
+}
+.mini-title{
+    color:red;
+}
+
+
+aside{
+    width: 154px;
+   
+}
+aside a{
+    display:block;
+    margin-top:10px;
+}
+
+
+
+
+footer{
+    background-color:white;
+    border-bottom:solid 1px #000000;
+    padding:10px 0 20px;
+    border-top:solid 1px #cccccc;
+   
+}
+.footer-navi{
+    clear: both;
+    display:flex;
+}
+.footer-navi a{
+    flex:1;
+    text-decoration: none;
+    border-right:solid 1px ;
+}
+.footer-navi a:last-child{
+    border-right:0;
+}
+.footer-navi a{
+
+    display:block;
+    text-decoration: none;
+    text-align:center;
+    margin-bottom:20px;
+}
+.footer-copy{
+    text-align:center;
+}
+
+
+
+

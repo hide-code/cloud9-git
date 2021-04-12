@@ -1,0 +1,44 @@
+body {
+}
+
+nav, aside, article {
+  border: solid 1px;
+}
+
+img {
+  width: 300px;
+}
+main{
+  display:flex;
+  width:960px;
+  margin:0 auto;
+}
+nav{
+  
+  
+}
+article{
+  
+}
+aside{
+  
+}
+header{
+  border-bottom:solid 1px #000000;
+  min-width:960px;
+}
+div{
+  width:960px;
+  margin:0 auto;
+}
+footer p{
+  margin:0 auto;
+  width:960px;
+  
+}
+footer{
+  border-bottom:solid 1px #000000;
+  min-width:960px;
+}
+
+  

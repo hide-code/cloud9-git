@@ -1,0 +1,19 @@
+h1 {
+    color: #0000FF;
+    background-color: #00FFFF;
+    font-size: 20px;
+    text-align:  center;
+    border-bottom: dotted 1px #0000FF;
+    border-top: dotted 1px #0000FF;
+    
+}
+ul{
+    list-style: square;
+}
+a{
+    color: #FFFF00;
+}
+span{ 
+    font-size: 18px;
+    color: #FF0000;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            var min=0;
+            var max=100;
+            var rand1=Math.floor(Math.random()*(max+1-min))+min;
+            var rand2=Math.floor(Math.random()*(max+1-min))+min;
+            var rand3=Math.floor(Math.random()*(max+1-min))+min;
+            document.write('<p>rand1:' +rand1+ '</p>');
+            document.write('<p>rand2:' +rand2+ '</p>');
+            document.write('<p>rand3:' +rand3+ '</p>');
+            
+            var max=rand1;
+            if(rand2>rand1){
+                 max=rand2;
+            }
+            if(rand3>max){
+                max=rand3;
+            }
+            
+                document.write('<p>一番大きい数字' +max+ '</p>');
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+    var data = [59, 39, 100, 2, 15, 40, 84, 97];
+    var count=0;
+    
+    
+    for(var i=0;i<data.length;i++){
+        document.write('<p>' +data[i]+ '</p>');
+        if(data[i]<40){
+            count++;
+        }
+    }
+    
+    document.write('<P>40点未満の人は' +count+ '人です</p>');
+    
+    </script>
+</body>
+
+</html>

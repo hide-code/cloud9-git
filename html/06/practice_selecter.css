@@ -1,0 +1,61 @@
+
+.pink{
+    background-color: #FF6699;
+}
+.red{
+    color: #FF3333;
+}
+.yellow{
+    color: #FFFF00;
+}
+.blue{
+    color: #0000ff;
+}
+.font30{
+    font-size: 30px;
+}
+.font25{
+    font-size: 25px;
+}
+.red-box{
+    border: #FF3333 1px solid;
+    
+}
+.blue-box{
+    border: #0000FF 1px solid;
+}
+
+body{
+   
+    margin:0;
+}
+article{
+    width: 500px;
+    padding: 50px;
+    margin:0 auto;
+    background-color: #C0C0C0;
+}
+section{
+　
+    background-color: #FFFFFF;
+    margin:10px;
+}
+ul {
+   list-style-type: square;
+}
+li{
+    margin: 5px;
+}
+p{
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+}
+dl{
+    
+}
+dt{
+    border-bottom: dashed 1px #0000FF;
+    border-left: solid 10px #0000FF;
+}
